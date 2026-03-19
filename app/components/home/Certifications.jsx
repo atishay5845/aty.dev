@@ -7,7 +7,7 @@ import { LuAward, LuBadgeCheck, LuCloud, LuBrain, LuCpu, LuCode, LuUsers, LuGlob
 const achievementsData = [
     {
         id: 0,
-        title: "GATE 2026 - All India Rank 9000 in Computer Science",
+        title: "GATE 2026 - Qualified in Computer Science",
         issuer: "IIT Guwahati",
         date: "Feb 2026",
         description: "Secured a competitive rank of 9000 among 1.2 lakhs candidates in GATE 2026 Computer Science, demonstrating strong grasp of core CS concepts and problem-solving skills.",
