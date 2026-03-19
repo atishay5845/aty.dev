@@ -8,7 +8,7 @@ const projectsData = [
         title: "AdForge-AI-Web",
         description: "This real world AI SaaS project uses Google Gemini API to generate high converting UGC video ad content, making it perfect for developers, startups, and creators who want to build production ready AI applications.",
         tech: ["React.js", "Node.js & Express","PostgreSQL","Clerk","Google Gemini API", "Sentry","Hostinger VPS"],
-        videoUrl: "/ConvergeX.mp4",
+        videoUrl: "/AdForge.mp4",
         category: "AI · Healthcare",
         featured: true,
         github: "https://github.com/atishay5845/adforge-ai-web",

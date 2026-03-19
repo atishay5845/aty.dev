@@ -314,6 +314,7 @@ const Certifications = () => {
   }
 }}
   className={`inline-flex items-center gap-3 px-8 py-4 rounded-full ${activeData.bg} border ${activeData.border} ${activeData.text} hover:bg-white/10 hover:text-white transition-all duration-300 font-semibold text-sm group/btn backdrop-blur-md shadow-lg`}
+  suppressHydrationWarning={true}
 >
   <span>View Credential</span>
   <LuExternalLink className="w-5 h-5 group-hover/btn:scale-110 group-hover/btn:-translate-y-0.5 group-hover/btn:translate-x-0.5 transition-transform" />
@@ -334,6 +335,7 @@ const Certifications = () => {
                                         onClick={() => setActiveIndex(idx)}
                                         className={`w-full text-left p-5 rounded-3xl border transition-all duration-300 flex items-center gap-5 group
                                          ${isActive ? `bg-white/10 ${item.border} ${item.glow} scale-[1.02] -translate-x-1 lg:-translate-x-2` : 'bg-white/3 border-white/5 hover:bg-white/5 hover:border-white/20'}`}
+                                        suppressHydrationWarning={true}
                                     >
                                         <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300
                                              ${isActive ? `${item.bg} text-white shadow-lg shadow-${item.border.split('-')[1]}/50` : 'bg-white/5 text-white/50 group-hover:text-white group-hover:bg-white/10 group-hover:scale-110'}
@@ -374,6 +376,7 @@ const Certifications = () => {
       <button
         onClick={() => setViewerLink(null)}
         className="absolute top-4 right-4 z-50 px-3 py-1 rounded-lg bg-red-500 hover:bg-red-600 text-white"
+        suppressHydrationWarning={true}
       >
         ✕
       </button>
