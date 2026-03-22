@@ -12,7 +12,7 @@ const achievementsData = [
         date: "Feb 2026",
         description: "Secured a competitive score of 400 among 1.2 lakhs candidates in GATE 2026 Computer Science, demonstrating strong grasp of core CS concepts and problem-solving skills.",
         icon: LuTrophy,
-        link: "/certificates/python.pdf",
+        link: "/certificates/gate.png",
         gradient: "from-white/20 via-white/10 to-transparent", 
         glow: "shadow-[0_0_40px_rgba(255,255,255,0.25)]", 
         border: "border-white/30", 
