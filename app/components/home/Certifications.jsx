@@ -307,7 +307,8 @@ const Certifications = () => {
                                 
                                 <button
   onClick={() => {
-  if (activeData.link.endsWith(".pdf")) {
+  const isViewable = activeData.link.match(/\.(pdf|png|jpg|jpeg)$/i);
+  if (isViewable) {
     setViewerLink(activeData.link);
   } else {
     window.open(activeData.link, "_blank");
@@ -369,7 +370,7 @@ const Certifications = () => {
 
     <div
       onClick={(e) => e.stopPropagation()}
-      className="relative w-[50%] h-[85%] bg-black border border-white/20 rounded-2xl overflow-hidden shadow-2xl"
+      className="relative w-[70%] h-[85%] bg-black border border-white/20 rounded-2xl overflow-hidden shadow-2xl"
     >
 
       {/* Close Button */}

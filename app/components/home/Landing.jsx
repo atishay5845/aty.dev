@@ -114,7 +114,7 @@ const Landing = () => {
             {showResume && (
   <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 backdrop-blur-md">
 
-    <div className="relative w-[50%] h-[85%] bg-black rounded-xl border border-white/10 shadow-2xl">
+    <div className="relative w-[70%] h-[85%] bg-black rounded-xl border border-white/10 shadow-2xl">
 
       {/* Close Button */}
       <button
