@@ -1,40 +1,156 @@
-🚀 **Live Demo**: [https://atydev.vercel.app/](https://atydev.vercel.app/)
+# 👋 Atishay's Portfolio
+
+Welcome to my personal portfolio website! A modern, responsive portfolio showcasing my skills, projects, certifications, and experience.
+
+🚀 **[View Live Demo](https://atydev.vercel.app/)**
 
 ---
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📋 Overview
 
-## Getting Started
+This is a full-featured portfolio built with cutting-edge web technologies. It showcases my work as a developer, highlighting projects, skills, certifications, and providing an easy way to get in touch.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **🎨 Modern UI/UX** - Clean, professional design with smooth animations
+- **📱 Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices
+- **🌐 Interactive Globe** - 3D globe visualization for visual appeal
+- **📑 Multiple Sections**:
+  - Landing/Hero section
+  - About Me
+  - Featured Projects
+  - Certifications
+  - Skills & Features
+  - Contact & Links
+  - Navigation & Footer
+- **⚡ Fast Performance** - Optimized with Next.js and modern best practices
+- **🎯 SEO Optimized** - Built with proper meta tags and structure
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org) - React-based framework for production
+- **Styling**: CSS with PostCSS
+- **Components**: Custom React components
+- **Deployment**: [Vercel](https://vercel.com)
+- **3D Graphics**: Interactive globe component
+- **ESLint**: Code quality and linting
+
+## 📂 Project Structure
+
+```
+app/
+├── components/
+│   ├── Loader.jsx              # Loading component
+│   └── home/
+│       ├── Navbar.jsx          # Navigation bar
+│       ├── Landing.jsx         # Hero section
+│       ├── About.jsx           # About me section
+│       ├── Projects.jsx        # Portfolio projects
+│       ├── Certifications.jsx  # Certs & achievements
+│       ├── Features.jsx        # Skills & features
+│       ├── Contact.jsx         # Contact section
+│       ├── Footer.jsx          # Footer
+│       └── ui/
+│           └── globe.jsx       # 3D globe component
+├── layout.js                   # Root layout
+├── page.js                     # Home page
+└── globals.css                 # Global styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js (14+)
+- npm or yarn package manager
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone <repository-url>
+   cd aty.dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see your portfolio locally.
+
+## 🔧 Available Scripts
+
+```bash
+# Development server
+npm run dev
+
+# Production build
+npm run build
+
+# Start production server
+npm start
+
+# Run ESLint
+npm run lint
+```
+
+## 📦 Building for Production
+
+```bash
+npm run build
+npm start
+```
+
+The optimized build will be ready for deployment.
+
+## 🌐 Deployment
+
+This portfolio is deployed on **Vercel** for optimal performance and reliability.
+
+- **Production URL**: [https://atydev.vercel.app/](https://atydev.vercel.app/)
+- **Deployment**: Connected to GitHub for automatic deployments on push
+
+### Deploy Your Own
+
+To deploy to Vercel:
+
+1. Push your code to GitHub
+2. Import the repository in [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and configure settings
+4. Click deploy!
+
+## 💡 Customization
+
+### Update Portfolio Content
+
+- **Personal Info**: Edit component files in `app/components/home/`
+- **Projects**: Update `Projects.jsx` with your projects
+- **Certifications**: Modify `Certifications.jsx`
+- **Styling**: Customize `app/globals.css` and component-specific styles
+
+### Add Certificate Images
+
+Place certificate images in `public/certificates/` directory
+
+## 🤝 Connect With Me
+
+- **Portfolio**: [https://atydev.vercel.app/](https://atydev.vercel.app/)
+- Visit the Contact section on the portfolio for direct contact options
+
+## 📝 License
+
+This portfolio is personal work. Feel free to use it as inspiration for your own portfolio!
+
+---
+
+**Built with ❤️ using Next.js & React**
